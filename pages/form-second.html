@@ -1,0 +1,18 @@
+<div ng-controller="nameController" class="container">
+    <a ui-sref="form.main"><h6>«&nbsp;Back to Account</h6></a>
+
+    <h3>When is <span>{{name}}</span>'s <b>birthday</b>?</h3>
+
+    <form class="needs-validation" action="index.html" method="post">
+        <div class="row mx-auto">
+            <img src="https://icdn.kiwicrate.com/site/account/punchcard/onboarding/letscelebrate.png" class="rounded mx-auto d-block" alt="Let's Celebrate! We send super special birthday coupons!" width="70%" height="auto">
+        </div>
+        <div class="col-6 mx-auto" style="margin-top: 30px;">
+
+                <input type="text" class="form-control text-center" placeholder="MM/DD/YYYY">
+            </div>
+        <div>
+            <a ui-sref="form.third" class="btn btn-primary btn-lg btn-block">Next &nbsp;»</a>
+        </div>
+    </form>
+</div>
